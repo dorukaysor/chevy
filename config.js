@@ -111,6 +111,39 @@ window.CONFIG = {
     },
     {
       category: 'Programming',
+      name: 'Github - Doruk',
+      icon: 'github',
+      url: 'https://github.com/dorukaysor',
+      normalisedURL: 'github.com/dorukaysor',
+      triggers: [
+        'd',
+        'doruk',
+        'dorukaysor',
+        'doruk aysor',
+        'ian',
+        'ethan',
+        'ethancarter',
+        'ethan carter'
+      ],
+      key: 'KeyD',
+      commands: {
+        go: {
+          template: '{@}/{$}',
+          description: 'go to user'
+        },
+        search: {
+          template: '{@}/search?q={$}'
+        }
+      },
+      bgColor: {
+        type: 'solid',
+        color: '#171515'
+      },
+      textColor: '#e8e8e8',
+      pinned: true
+    },
+    {
+      category: 'Programming',
       name: 'GitHub',
       icon: 'github',
       url: 'https://github.com',
@@ -735,3 +768,4 @@ window.CONFIG = {
     }
   }
 }
+
