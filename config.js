@@ -621,7 +621,7 @@ window.CONFIG = {
       category: 'Search',
       name: 'Startpage',
       triggers: [
-        'sp',
+        'st',
         'startpage',
         'start'
       ],
@@ -690,7 +690,7 @@ window.CONFIG = {
         }
       }
     },
-    // 
+    // xd
     startpage: {
       name: 'Startpage',
       bgColor: {
