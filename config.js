@@ -619,6 +619,27 @@ window.CONFIG = {
     },
     {
       category: 'Search',
+      name: 'Startpage',
+      triggers: [
+        'sp',
+        'startpage',
+        'start'
+      ],
+      url: 'https://www.startpage.com',
+      normalisedURL: 'startpage.com',
+      commands: {
+        search: {
+          template: '{@}/do/search?q={$}'
+        }
+      },
+      bgColor: {
+        type: 'solid',
+        color: '#1c1c1c'
+      },
+      textColor: '#ffffff'
+    },
+    {
+      category: 'Search',
       name: 'Yandex',
       triggers: [
         'ya',
