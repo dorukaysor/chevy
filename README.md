@@ -1,7 +1,7 @@
 <div align=center>
-<h1>AI Enabled Chrome Startup Page</h1>
+<h2>Ambient - Home Page</h2>
 </div>
 
 <p align=center>
-  This is a <i>powerful</i> and highly <i>functional</i> startpage integrated with chatGPT<br/> and hidden under the super <i>minimalistic</i> and <i>animated</i> design
+  This is a <b>powerful</b> and highly <b>functional</b> startpage integrated with chatGPT<br/> and hidden under the super <b>minimalistic</b> and <b>animated</b> design
 </p>

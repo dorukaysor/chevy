@@ -669,6 +669,26 @@ window.CONFIG = {
         }
       }
     },
+    // 
+    startpage: {
+      name: 'Startpage',
+      bgColor: {
+        type: 'solid',
+        color: '#1c1c1c'
+      },
+      textColor: '#ffffff',
+      types: {
+        query: {
+          template: 'https://www.startpage.com/do/search?q={$}'
+        },
+        calculator: {
+          template: 'https://www.startpage.com/do/search?q={@}'
+        },
+        currency: {
+          template: 'https://www.startpage.com/do/search?q={@}'
+        }
+      }
+    },
     duckDuckGo: {
       name: 'DuckDuckGo',
       bgColor: {
