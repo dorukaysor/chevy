@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+        }
+        .favicon-preview {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+        }
+        .favicon-preview img {
+            border: 1px solid #ccc;
+            margin-bottom: 5px;
+        }
+        .favicon-size {
+            display: block;
+            font-size: 12px;
+            color: #666;
+        }
+        h1 {
+            color: #333;
+        }
+        .code-block {
+            background: #f8f8f8;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+            font-family: monospace;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>Favicon Preview for Ambient Here</h1>
+    
+    <div class="favicon-preview">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16">
+            <rect width="32" height="32" fill="#000000"/>
+            <path d="M12 8 L20 16 L12 24" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="favicon-size">16x16</span>
+    </div>
+    
+    <div class="favicon-preview">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+            <rect width="32" height="32" fill="#000000"/>
+            <path d="M12 8 L20 16 L12 24" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="favicon-size">32x32</span>
+    </div>
+    
+    <div class="favicon-preview">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="48" height="48">
+            <rect width="32" height="32" fill="#000000"/>
+            <path d="M12 8 L20 16 L12 24" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="favicon-size">48x48</span>
+    </div>
+
+    <h2>HTML Code to Add to Your Index:</h2>
+    <div class="code-block">&lt;!-- Favicon --&gt;
+&lt;link rel="icon" type="image/svg+xml" href="src/assets/icons/favicon.svg"&gt;
+&lt;link rel="icon" type="image/png" href="src/assets/icons/favicon-32x32.png"&gt;
+&lt;link rel="icon" type="image/png" href="src/assets/icons/favicon-16x16.png"&gt;
+&lt;link rel="apple-touch-icon" href="src/assets/icons/apple-touch-icon.png"&gt;</div>
+
+    <p><strong>Note:</strong> The SVG favicon will work in modern browsers. For older browser support, you may want to convert this to PNG format using an online converter.</p>
+</body>
+</html>
